@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+</head>
+
+<body>
+    <style>
+        div
+         {
+            background-color: palevioletred;
+            height: 100px;
+            width: 100px;
+            animation-name: colorchange;
+            animation-duration: 2s;
+         }
+
+        @keyframes colorchange
+         {
+            0% {
+                transform: scale(0);
+                opacity: 0;
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+
+
+        }
+    </style>
+
+    <div>
+
+    </div>
+</body>
+
+</html>
